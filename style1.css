@@ -1,0 +1,185 @@
+/* GIVE CSS ON LOGIN PAGE */
+#login-form1{
+	width:260px;
+	height:280px; /* if any error then remove this line*/
+	box-shadow:0 0 3px;
+	background:darkgreen;
+	padding:20px;
+	margin:8% auto 0;
+	text-align:center;
+	border-radius:20px;
+	padding:50px;
+	color:white;
+}
+
+#user-logo{
+	width:100px;
+	height:110px;
+	position:absolute;
+	left:46%;
+	top:7%;
+	border-radius:50%;	
+}
+
+#submit,a{
+	color:solid black;
+}
+a:hover{
+	color:orange;
+	transition: all 0.4s ease 0s;
+	font-style:bold;
+	font-size:21px;
+}
+
+/* GIVE CSS ON HOME PAGE */
+/* set the style on nav*/
+nav{
+	height:80px;
+	width:100%;
+	background-color:darkcyan;
+	line-height:50px;
+	font-size:18px;
+	
+}
+nav ul{
+	float:right; /* set all link in right side*/
+	margin-right:20px; /*give the space on right side */
+	
+}
+nav li{
+	display:inline-block; /*display link in one line*/
+	margin: 0 5px;
+}
+
+
+nav li a{
+	text-transform:uppercase;
+    text-decoration:none; /*it use for remove the uderline on link */
+    color:white;	
+}	
+
+/* move cursor on link button then color change*/
+nav li a:hover{
+	color:orange;
+	transition: all 0.4s ease 0s;
+}
+
+#img{
+	width:100px;
+	height:80px;
+	border-radius:50%;	
+	margin-left:20px;
+}
+
+
+/* GIVE CSS ON REGISTRATION PAGE */
+/* set the style on registration form */
+#reg{
+	width:270px;
+	height:390px; /* if any error then remove this line*/
+	box-shadow:0 0 3px;
+	background:grey;
+	padding:20px;
+	margin:3% auto 0;
+	text-align:center;
+	border-radius:20px;
+	padding:50px;
+	color:white;
+	
+}
+
+h1{
+	margin-top:1%;
+	color:red;
+	font-style:bold;
+	font-style:italic;
+}
+
+/* set the effect of input box */
+#fname,#lname,#email,#pwd,#pno,#adr{
+	border-radius:14px;
+	height:26px;
+}
+
+#submit ,a{
+	
+    font-style:bold;
+	border-radius:14px;
+	height:30px;
+	width:120px;
+	text-decoration:none; /* it remove the underline on link button*/
+}
+
+a:hover{
+	color:orange;
+	transition: all 0.4s ease 0s;
+	font-style:bold;
+	font-size:21px;
+}
+
+#reg1{
+	animation: blink  infinite 7s;
+}
+@keyframes blink{
+	0%{
+		background-color:lightred;
+	}
+	25%{
+		background-color:lightgreen;
+	}
+	50%{
+		background-color:lightblue;
+	}
+	75%{
+		background-color:lightyellow;
+	}
+	100%{
+		background-color:pink;
+	}
+}
+
+ 
+   #menu {
+	float:right;
+	background-color:red;
+	color:white;
+    font-style:bold;
+	border-radius:11px;
+	height:30px;
+	width:120px;
+	text-decoration:none; /* it remove the underline on link button*/
+}
+a{
+	color:white;
+	text-decoration:none;
+	font-style:bold;
+}
+
+/* GIVE STYLE ON ABOUT PAGE */
+#red{
+	color:red;
+}
+#yellow{
+	background-color:lightyellow;
+}
+
+#blue{
+	color:blue;
+}
+#lightgreen{
+	background-color:lightgreen;
+}
+
+#green{
+	color:green;
+}
+#pink{
+	background-color:lightpink;
+}
+
+#darkcyan{
+	color:darkcyan;
+}
+#grey{
+	background-color:lightgrey;
+}

@@ -1,0 +1,82 @@
+*{
+	margin:0;
+	padding:0;
+	border:none;
+	outline:none;
+	box-sizing:border-box;
+	font-family:"Poppins",sans-serif;
+}
+body{
+	display:flex;
+}
+.sidebar{
+	position:sticky;
+	top:0;
+	left:0;
+	width:240px;
+	height:100vh;
+	padding:0 1.7rem;
+	color:white;
+	overflow:hidden;
+	transition:all 0.5s linear;
+	background:rgba(100,245,99,110);
+}
+.logo{
+	height:80px;
+	padding:16px;
+}
+.menu{
+	height:88%;
+	position:relative;
+	list-style:none;
+	padding:0;
+	
+}
+.menu li{
+	padding:1rem; /*it give space between two line/its one type of br tag(<br>)*/
+	margin:8px 0;
+	border-radius:8px;
+	transition:all 0.5s ease-in-out;
+}
+a{
+	text-decoration:none;
+	color:white;
+	text-transform:uppercase;
+	font-size:22px;
+	font-style:bold;
+	font-style:italic;
+}
+a:hover{
+	color:red;
+	background-color:blue;
+	width:100px;
+}
+h2{
+	font-style:italic;
+}
+td{
+	margin:0 10px;
+	padding:1rem;
+	
+}
+#d1{
+	height:200px;
+	width:200px;
+	background-color:red;
+	text-align:center;
+	border-radius:10px;
+}
+#d2{
+	height:200px;
+	width:200px;
+	background-color:green;
+	text-align:center;
+	border-radius:10px;
+}
+#d3{
+	height:200px;
+	width:200px;
+	background-color:orange;
+	text-align:center;
+	border-radius:10px;
+}

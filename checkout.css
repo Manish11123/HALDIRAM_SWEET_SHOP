@@ -1,0 +1,161 @@
+
+
+.checkout-form form{
+	padding:2rem;
+	border-radius: .5rem;
+	background-color: lightgreen; /*var(--bg-color)*/
+}
+
+.checkout-form form .flex{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.5rem;
+}
+
+.checkout-form form .flex .inputbox{
+	flex:1 1 30rem;
+	margin-bottom: -2rem;
+
+}
+.checkout-form form .flex .inputbox span{
+	font-size: 1.2rem;
+	font-style:bold;
+	color: black;
+}
+
+.checkout-form form .flex .inputbox input,
+.checkout-form form .flex .inputbox select {
+	width:100%;
+	height: 10%;
+	background-color: white;
+	font-size: 1rem;
+	color: blue;
+	border-radius: .5rem;
+	margin: .3rem 0;
+	padding: 1.2rem 1.4rem;
+	text-transform: none;
+	border:  var(--border);
+}
+
+
+
+.display-order{
+	max-width: 50rem;
+	background-color: pink;
+	text-align: center;
+	padding: 1.5rem;
+	margin: 0 auto;
+	margin-bottom: 1rem;
+	box-shadow: var(--outer-shadow);
+	border: var(--border);
+}
+
+.display-order span{
+	display: inline-block;
+	border-radius: .5rem;
+	background-color: gray;
+	padding: .5rem 1rem;
+	font-size: 1.5rem;
+	color: black;
+	margin: .5rem;
+}
+
+.display-order span.grand-total{
+	height: 9%;
+	width: 100%;
+	background-color: red;
+	color: #fff;
+	padding: .5rem;
+	margin-top: .5rem;
+}
+
+.order-message-container {
+	position: absolute;
+	top: 35;
+	left:0;
+	min-height: 90vh;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	padding: .1rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 1100;
+	background-color: lightgray;
+	width: 40%;
+	margin-left: 30%;
+	border-radius: 2rem;
+}
+
+.order-message-container::-webkit-Scrollbar{
+	width: 1rem;
+}
+
+
+.order-message-container::-webkit-Scrollbar-track{
+	background-color: var(--dark-bg);
+
+}
+
+.order-message-container::-webkit-Scrollbar-thumb{
+	background-color: var(--dark-bg);
+}
+
+.order-message-container .message-container{
+	width: 50rem;
+	background-color: var(--white);
+	border-radius: .5rem;
+	padding: .1rem;
+	text-align: center;
+}
+
+.order-message-container .message-container span{
+	font-size: 1.2rem;
+	color: blue;
+}
+
+.order-message-container .message-container h3{
+	font-size: 2rem;
+	color: var(--black);
+}
+
+.order-message-container .message-container .order-detail{
+	background-color: var(--bg-color);
+	border-radius: .5rem;
+	padding: 1rem;
+	margin: 1rem 0;
+}
+
+.order-message-container .message-container .order-detail span{
+	background-color: var(--white);
+	border-radius: .5rem;
+	color: var(--black);
+	font-size:1.5rem;
+	display: inline-block;
+	padding: .5rem 1rem;
+	margin: 1rem;
+}
+
+.order-message-container .message-container .order-detail span.total{
+	display: block;
+	background: var(--red);
+	color: var(--white);
+}
+
+.order-message-container .message-container .order-detail{
+	margin: -3rem 0;
+}
+
+.order-message-container .message-container .customer-detail p{
+	margin: .5rem 0;
+	padding: -1rem 0;
+	font-size: 1.2rem;
+	color: var(--black);
+}
+
+.order-message-container .message-container .order-detail p span{
+	color: var(--blue);
+	font-size: 1rem;
+	padding: 0 .5rem;
+	text-transform: none;
+}
